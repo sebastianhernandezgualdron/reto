@@ -9,10 +9,10 @@
     height: 70px;
     margin: 100;
     padding: 100;
-    display: inline-block;
     
     background-color: rgb(90, 57, 84);
 }
+
 .titulo{
     padding: 15px;
     color: white;
@@ -24,39 +24,50 @@
 .seccion1{ background-color: rgb(3, 52, 66);
     
     
-}
-.seccion2{
-    background-color: rgb(3, 52, 66);
     
-
 }
+
+
+
 .subtitulo1{
     color: white;
+    text-align: center;
     
-    padding: 100px 250px;
+
     
 }
 .subtitulo2{
     color: white;
-    text-align: right;
-    padding: 100px 250px;
-    
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 0px;
+
+   
+   
 }
 .parrafo{
-    border: 2px r rgb(3, 140, 140);
+    border: 1px rgb(3, 140, 140);
     background-color:rgb(3, 140, 140) ;
     border-radius: 5%;
-    width: 49%;
-   
     
+    
+
+    
+
     
 }
 .parrafo1{
-    border: 2px solid rgb(3, 140, 140);
+    border: 2px rgb(3, 140, 140);
     background-color:rgb(3, 140, 140) ;
     border-radius: 5%;
+    align-items: right;
+    
+  
+     
+}
+.texto1{
+    display: inline-block;
     width: 49%;
-    justify-content: right;
-
+    max-width: 40vw;
     
 }
